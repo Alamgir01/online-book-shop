@@ -1,0 +1,110 @@
+    #header{
+	background-color:#87CEFA;
+	overflow:hidden;
+	}
+	#headnav{
+	   margin:20px;
+       background-color:#008B8B;
+       overflow:hidden;	   
+	  }
+	  
+	#headnav a{
+	    float:Left;
+	    border:1px solid black;
+		text-align: center;
+		font-size: 17px;
+		padding :15px 50px 15px;
+		margin :10px;		
+		background-color:#ccffff;
+		color:black;
+		text-decoration: none;
+        overflow:hidden;
+	  }
+	  
+      #headsubnav{
+	 
+	  margin:20px;
+	  overflow:hidden;
+	  }
+	  
+	  #category{
+	   
+	   margin:0px;
+	   padding:0px;
+	   background-color:#008B8B;
+	   overflow:hidden;
+	  }
+	  #search{
+	   width:50%;
+	   margin:10px;
+	   padding:0px;
+	   float:right;
+	   }
+	  
+	 #categorylist{
+       display:block;
+	   position:absolute;
+	   top:28%;
+	   left:-20px;
+	   z-index:2;
+	   display:none;
+	  }
+	  #categorylist li:hover{
+	     background-color:#80dfff;
+		 font-size:20px;
+		 font-weight:bold;
+		 color:black;
+	  }
+	  
+	  
+	 #categorylist  li{
+	   background-color:#00ace6;
+	   list-style-type: none;
+	   border: 1px solid green;
+	   padding:15px;
+       margin:5px;	   
+	   text-align:center;
+	   }
+	   
+	  #categorylist li a{
+		 text-decoration:none;
+         color:black;
+         		 
+	 }
+	  
+	 #search input[type=search]{
+	    width:80%;
+	    padding:5px;
+		margin:5px;
+	   } 
+	   #search input[type=submit]{
+	    width:10%;
+	    padding:5px;
+		margin:5px;
+	   }
+	   
+	   #category p {
+	   width:20%;
+	   border:1px solid green;
+	   margin:15px;
+	   font-size:20px;
+	   background-color:#ccffff;
+	   color:black;
+	   text-align:center;
+	   float:left;
+	   }
+	 
+	 #headnav a:hover,#category p:hover{
+	  background-color:#39ac6d;
+	  color:white;
+	 }
+	 
+	 #headnav a.active{
+		 background-color:#00b3b3 ;
+		 color:white;
+		 
+	 }
+	  #categorylist li.active{
+		background-color:#00b3b3 ;
+		 color:white;  
+	  }
